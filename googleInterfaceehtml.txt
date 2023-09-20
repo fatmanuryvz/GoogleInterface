@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="google.css">
+    <title>Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Labrada:wght@200&family=Lobster&family=Open+Sans:wght@300&family=Shantell+Sans&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1 id="BigHeading">Google</h1>
+
+    <div class="SearchBar">
+        <input type="text" class="form-control">
+    </div>
+
+    <div class="SearchIcon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="keyboardsIcon">
+        <i class="fa-regular fa-keyboard"></i>
+        <span id="keyboardsIcon" aria-label="Keyboard"></span>
+      
+    </div>
+
+
+    <div class="microphoneIcon">
+    <i class="fa-solid fa-microphone"></i>
+    </div>
+
+    
+
+    <div class="button">
+        <a href="https://atilsamancioglu.com/"><input type="submit" class="b1" value="Search in google"></a>
+        <input type="submit" class="b2" value="I feel lucky">
+    </div>
+    
+
+</body>
+
+</html>
